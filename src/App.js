@@ -7,7 +7,14 @@ import SingleRoom from "./pages/SingleRoom";
 import Error from "./pages/Error";
 
 function App() {
-  return <>hello from App</>;
+  return (
+    <>
+      <Home />
+      <Rooms />
+      <SingleRoom />
+      <Error />
+    </>
+  );
 }
 
 export default App;
