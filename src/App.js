@@ -12,9 +12,8 @@ function App() {
   return (
     <>
       <Route path="/" component={Home} />
-      <Route path="/" component={Rooms} />
-      <Route path="/" component={SingleRoom} />
-      <Route path="/" component={Error} />
+      <Route path="/rooms" component={Rooms} />
+      <Route path="/single-room" component={SingleRoom} />
     </>
   );
 }
