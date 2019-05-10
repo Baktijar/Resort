@@ -6,7 +6,7 @@ export default class Servises extends Component {
     servises: [
       {
         icon: <FaCocktail />,
-        title: "free cocktails",
+        title: "Cocktails",
         info:
           "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem facilis sint alias blanditiis adipisci! "
       },
@@ -18,7 +18,7 @@ export default class Servises extends Component {
       },
       {
         icon: <FaShuttleVan />,
-        title: "Free shuttle",
+        title: "Free Transport",
         info:
           "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem facilis sint alias blanditiis adipisci! "
       },
