@@ -1,5 +1,5 @@
 import React from "react";
-import { link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import defaultImg from "../images/room-1.jpeg";
 export default function Room({ room }) {
   const { name, slug, images, price } = room;
@@ -11,6 +11,9 @@ export default function Room({ room }) {
           <h6>${price}</h6>
           <p>per night</p>
         </div>
+        <Link to={"/rooms/${slug}"} className="btn-primary room-link">
+          Features
+        </Link>
       </div>
     </article>
   );
