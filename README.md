@@ -1,4 +1,4 @@
-Description of Website will be about booking room in "Issyk-Kul Resort"
+Wellcome to react "Resort"project where will displayed Hotel rooms and set up functionality so the user can filter them as well.
 The main of this project :
 
 Use of knowledge gained during the course.
