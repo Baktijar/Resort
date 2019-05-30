@@ -39,13 +39,13 @@ export default function RoomsFilter({ rooms }) {
       <form className="filter-form">
         {/*select type */}
         <div className="form-group">
-          <lebel htmlFor="type">room type</lebel>
+          <label htmlFor="type">room type</label>
           <select
             name="type"
             id="type"
             value={type}
             className="form-control"
-            onchange={handleChange}
+            onChange={handleChange}
           >
             {types}
           </select>
