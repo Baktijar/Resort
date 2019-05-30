@@ -76,6 +76,10 @@ class RoomProvider extends Component {
       breakFast,
       pets
     } = this.state;
+    let tempRooms = [...rooms];
+    if (type !== "all") {
+      tempRooms = tempRooms.filter(room => room.type === type);
+    }
   };
 
   render() {
